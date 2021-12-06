@@ -24,11 +24,11 @@
 
 6. Напишите программу, рассчитывающую стоимость и калорийность гамбургера. Используй Функцию Конструктор (подсказка: нужен класс Гамбургер, константы, методы для выбора опций и расчета нужных величин).
 
-**Пример работы кода:** \
-const hamburger = new Hamburger(SIZE_SMALL); \
-// добавляем добавки \
-hamburger.addModifier(TOPPING_MAYO); \
-hamburger.addModifier(POTATO);
+   **Пример работы кода:** \
+   const hamburger = new Hamburger(SIZE_SMALL); \
+   // добавляем добавки \
+   hamburger.addModifier(TOPPING_MAYO); \
+   hamburger.addModifier(POTATO);
 
 или для каждой опциональной начинки можно реализовать отдельный метод. \
 // вывод результата \
